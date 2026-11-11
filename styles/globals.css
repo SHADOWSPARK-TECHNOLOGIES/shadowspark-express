@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-white text-ink antialiased;
+}
+.logo-block {
+  @apply inline-flex items-center justify-center bg-accent px-2 py-1 font-mono text-sm font-bold tracking-tight text-brand;
+}
